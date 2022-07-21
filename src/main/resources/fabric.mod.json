@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "cdrugs",
+  "version": "0.1b+1.19",
+
+  "name": "Drug Mod",
+  "description": "Adds Drugs to Minecraft",
+  "authors": [
+    "Carlettos"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Carlettos1/Mod-Drogas",
+    "sources": "https://github.com/Carlettos1/Mod-Drogas"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/cdrugs/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "carlettos.cdrugs.Drugs"
+    ], 
+    "client": [
+      "carlettos.cdrugs.ClientDrugs"
+    ]
+  },
+  "mixins": [
+    "cdrugs.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
