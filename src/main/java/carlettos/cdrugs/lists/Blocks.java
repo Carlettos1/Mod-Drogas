@@ -1,26 +1,37 @@
 package carlettos.cdrugs.lists;
 
-import static carlettos.cdrugs.Drugs.ID;
 import static net.minecraft.block.Blocks.WHEAT;
 
+import carlettos.cdrugs.base.CocaineType;
 import carlettos.cdrugs.block.CocaineBlock;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import carlettos.cdrugs.helper.BlockHelper;
+import carlettos.cdrugs.helper.RegistryHelper;
 import net.minecraft.block.AbstractBlock.Settings;
 import net.minecraft.block.Block;
-import net.minecraft.client.render.RenderLayer;
-import net.minecraft.util.Identifier;
-import net.minecraft.util.registry.Registry;
 
 public class Blocks {
-	public static final Block COCAINE;
+	public static final Block AMAZONIAN_COCAINE;
+	public static final Block BOLIVIAN_COCAINE;
+	public static final Block TRUJILLO_COCAINE;
+	public static final Block COLOMBIAN_COCAINE;
+	public static final Block[] COCAINES;
 	
 	static {
-		COCAINE = new CocaineBlock(Settings.copy(WHEAT));
+		AMAZONIAN_COCAINE = new CocaineBlock(Settings.copy(WHEAT), CocaineType.ERYTHROXYLUM_COCA_VAR_IPADU);
+		BOLIVIAN_COCAINE = new CocaineBlock(Settings.copy(WHEAT), CocaineType.ERYTHROXYLUM_COCA_VAR_COCA);
+		TRUJILLO_COCAINE = new CocaineBlock(Settings.copy(WHEAT), CocaineType.ERYTHROXYLUM_NOVOGRANATENSE_VAR_TRUXILLENSE);
+		COLOMBIAN_COCAINE = new CocaineBlock(Settings.copy(WHEAT), CocaineType.ERYTHROXYLUM_NOVOGRANATENSE_VAR_NOVOGRANATENSE);
+		COCAINES = new Block[]{AMAZONIAN_COCAINE, BOLIVIAN_COCAINE, TRUJILLO_COCAINE, COLOMBIAN_COCAINE};
 	}
 	
 	public static void register() {
-		Registry.register(Registry.BLOCK, Identifier.of(ID, "cocaine"), COCAINE);
-		BlockRenderLayerMap.INSTANCE.putBlock(COCAINE, RenderLayer.getCutoutMipped());
+		RegistryHelper.registerBlock(AMAZONIAN_COCAINE, "AMAZONIAN_COCAINE");
+		RegistryHelper.registerBlock(BOLIVIAN_COCAINE, "BOLIVIAN_COCAINE");
+		RegistryHelper.registerBlock(TRUJILLO_COCAINE, "TRUJILLO_COCAINE");
+		RegistryHelper.registerBlock(COLOMBIAN_COCAINE, "COLOMBIAN_COCAINE");
+		for (Block cocaine : COCAINES) {
+			BlockHelper.putRenderLayerCutoutMipped(cocaine);
+		}
 	}
 	
 	public static void registerClient() {

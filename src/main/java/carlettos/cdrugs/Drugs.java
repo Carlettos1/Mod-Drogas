@@ -14,7 +14,7 @@ import net.minecraft.util.Identifier;
 public class Drugs implements ModInitializer {
 	public static final String ID = "cdrugs";
 	public static final Logger LOGGER = LoggerFactory.getLogger(ID);
-	public static final ItemGroup DRUGS = FabricItemGroupBuilder.build(Identifier.of(ID, ID), () -> new ItemStack(Items.COCAINE_SEEDS));
+	public static final ItemGroup DRUGS = FabricItemGroupBuilder.build(Identifier.of(ID, ID), () -> new ItemStack(Items.COLOMBIAN_COCAINE_SEEDS));
 
 	@Override
 	public void onInitialize() {
