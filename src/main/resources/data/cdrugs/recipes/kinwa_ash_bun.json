@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "cdrugs:kinwa_ashes"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "item": "cdrugs:kinwa_ash_bun"
+  }
+}

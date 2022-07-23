@@ -1,6 +1,8 @@
 package carlettos.cdrugs.helper;
 
 import carlettos.cdrugs.Drugs;
+import carlettos.cdrugs.base.CocaineType;
+import carlettos.cdrugs.item.CocaineLeaf;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.block.Block;
 import net.minecraft.item.AliasedBlockItem;
@@ -15,6 +17,10 @@ public class ItemHelper {
 	
 	public static final Item createItem() {
 		return createItem(new FabricItemSettings());
+	}
+	
+	public static final CocaineLeaf createCocaineLeaf(CocaineType type) {
+		return new CocaineLeaf(new FabricItemSettings().group(Drugs.DRUGS), type);
 	}
 	
 	public static final BlockItem createBlockItem(Settings settings, Block block) {

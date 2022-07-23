@@ -15,3 +15,7 @@ Erythroxylum novogranatense var. novogranatense (Cocaína al 0.77% (.55-.93)) ->
 
 ## Más datos
 Se cosecha hasta 3-4-6 veces al año. 1 misma planta puede ser cosechada hasta 10 años.
+
+# TODOS
+añadir lo del puru para consumir la coca en boca
+añadir el te de coca

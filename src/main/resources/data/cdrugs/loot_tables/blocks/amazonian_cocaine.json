@@ -16,18 +16,18 @@
               "type": "minecraft:item",
               "conditions": [
                 {
-                  "block": "cdrugs:cocaine",
+                  "block": "cdrugs:amazonian_cocaine",
                   "condition": "minecraft:block_state_property",
                   "properties": {
                     "age": "7"
                   }
                 }
               ],
-              "name": "cdrugs:cocaine_leaf"
+              "name": "cdrugs:amazonian_cocaine_leaf"
             },
             {
               "type": "minecraft:item",
-              "name": "cdrugs:cocaine_seeds"
+              "name": "cdrugs:amazonian_cocaine_seeds"
             }
           ]
         }
@@ -38,7 +38,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "cdrugs:cocaine",
+          "block": "cdrugs:amazonian_cocaine",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "7"
@@ -59,7 +59,7 @@
               }
             }
           ],
-          "name": "cdrugs:cocaine_seeds"
+          "name": "cdrugs:amazonian_cocaine_seeds"
         }
       ],
       "rolls": 1.0
@@ -68,7 +68,7 @@
       "bonus_rolls": 0.0,
       "conditions": [
         {
-          "block": "cdrugs:cocaine",
+          "block": "cdrugs:amazonian_cocaine",
           "condition": "minecraft:block_state_property",
           "properties": {
             "age": "7"
@@ -89,7 +89,7 @@
               }
             }
           ],
-          "name": "cdrugs:cocaine_leaf"
+          "name": "cdrugs:amazonian_cocaine_leaf"
         }
       ],
       "rolls": 1.0

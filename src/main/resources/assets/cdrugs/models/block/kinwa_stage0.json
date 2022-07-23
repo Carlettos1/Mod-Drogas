@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/crop",
+    "textures": {
+        "crop": "cdrugs:block/kinwa_stage0"
+    }
+}

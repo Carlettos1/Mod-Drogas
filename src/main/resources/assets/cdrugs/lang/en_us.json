@@ -1,3 +1,25 @@
 {
-  "block.carlettos.cdrug.cocaine": "Cocaine"
+    "itemGroup.cdrugs.cdrugs": "Drugs",
+    
+    "item.cdrugs.amazonian_cocaine_seeds": "Amazonian Cocaine Seeds",
+    "item.cdrugs.bolivian_cocaine_seeds": "Bolivian Cocaine Seeds",
+    "item.cdrugs.trujillo_cocaine_seeds": "Trujillo Cocaine Seeds",
+    "item.cdrugs.colombian_cocaine_seeds": "Colombian Cocaine Seeds",
+    
+    "item.cdrugs.amazonian_cocaine_leaf": "Cocaine Leaf",
+    "item.cdrugs.bolivian_cocaine_leaf": "Cocaine Leaf",
+    "item.cdrugs.trujillo_cocaine_leaf": "Cocaine Leaf",
+    "item.cdrugs.colombian_cocaine_leaf": "Cocaine Leaf",
+    
+    "cocaine.percentage.erythroxylum_coca_var_ipadu": "0.25% of Cocaine",
+    "cocaine.percentage.erythroxylum_coca_var_coca": "0.63% of Cocaine",
+    "cocaine.percentage.erythroxylum_novogranatense_var_truxillense": "0.72% of Cocaine",
+    "cocaine.percentage.erythroxylum_novogranatense_var_novogranatense": "0.77% of Cocaine",
+    
+    "cocaine_leaf.needs": "Needs Quinoa Ash Bun to be Consumed",
+    
+    "item.cdrugs.kinwa_seeds": "Quinoa Seeds",
+    "item.cdrugs.kinwa_stem": "Quinoa Stem",
+    "item.cdrugs.kinwa_ashes": "Quinoa Ashes",
+    "item.cdrugs.kinwa_ash_bun": "Quinoa Ash Bun"
 }

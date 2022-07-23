@@ -12,7 +12,7 @@ public class RegistryHelper {
 	private RegistryHelper() {}
 	
 	public static final void registerItem(final Item item, final String name) {
-		Registry.register(Registry.ITEM, Identifier.of(Drugs.ID, name.toLowerCase()), item);
+		Registry.register(Registry.ITEM, Identifier.of(ID, name.toLowerCase()), item);
 	}
 	
 	public static final void registerBlock(final Block block, final String name) {

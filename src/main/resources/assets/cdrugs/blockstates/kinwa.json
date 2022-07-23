@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0,kinwa_type=purple": {
+      "model": "cdrugs:block/kinwa_stage0"
+    },
+    "age=1,kinwa_type=purple": {
+      "model": "cdrugs:block/kinwa_stage1"
+    },
+    "age=2,kinwa_type=purple": {
+      "model": "cdrugs:block/kinwa_stage2"
+    },
+    "age=3,kinwa_type=purple": {
+      "model": "cdrugs:block/purple_kinwa"
+    },
+    "age=0,kinwa_type=black": {
+      "model": "cdrugs:block/kinwa_stage0"
+    },
+    "age=1,kinwa_type=black": {
+      "model": "cdrugs:block/kinwa_stage1"
+    },
+    "age=2,kinwa_type=black": {
+      "model": "cdrugs:block/kinwa_stage2"
+    },
+    "age=3,kinwa_type=black": {
+      "model": "cdrugs:block/black_kinwa"
+    },
+    "age=0,kinwa_type=red": {
+      "model": "cdrugs:block/kinwa_stage0"
+    },
+    "age=1,kinwa_type=red": {
+      "model": "cdrugs:block/kinwa_stage1"
+    },
+    "age=2,kinwa_type=red": {
+      "model": "cdrugs:block/kinwa_stage2"
+    },
+    "age=3,kinwa_type=red": {
+      "model": "cdrugs:block/red_kinwa"
+    },
+    "age=0,kinwa_type=yellow": {
+      "model": "cdrugs:block/kinwa_stage0"
+    },
+    "age=1,kinwa_type=yellow": {
+      "model": "cdrugs:block/kinwa_stage1"
+    },
+    "age=2,kinwa_type=yellow": {
+      "model": "cdrugs:block/kinwa_stage2"
+    },
+    "age=3,kinwa_type=yellow": {
+      "model": "cdrugs:block/yellow_kinwa"
+    }
+  }
+}

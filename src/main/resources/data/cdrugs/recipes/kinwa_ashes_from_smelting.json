@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "cdrugs:kinwa_stem"
+  },
+  "result": "cdrugs:kinwa_ashes"
+}
